@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" />
+    <title>Yr weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg" >
+                <div class="searchbar">
+                    <input id="lat" autocomplete="off" type="text" placeholder="Type in Lat..."></input> 
+                    <input id="long" autocomplete="off" type="text" placeholder="Type in Long..."></input>
+                    <button id="submit" onclick=weatherAsk()>Søk</button>
+                </div>
+                <h1 class="title">Weather</h1>
+                <div class="currentWeather-wrapper">
+                    <div class="currentWeather-card">
+                        <h2>Today</h2>
+                        <h1 id="currentTemp">na</h1>
+                        <span class="infoTemp">
+                            Fog:
+                            <span id="fog">Na</span>
+                            <br>
+                            Wind:
+                            <span id="wind">Na</span>
+                        </span>
+                        <div class="symbolCode">
+                            <p id="symbol_code"></p>
+                        </div>
+                    </div>
+                </div>          
+            <div class="col-lg-12">
+                <div class="currentWeather-card">
+                    <h2 id="date2">na</p>
+                    <h1 id="currentTemp2">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog2">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind2">Na</span>
+                    </span>
+                </div>
+                <div class="currentWeather-card">
+                    <h2 id="date3">na</p>
+                    <h1 id="currentTemp3">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog3">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind3">Na</span>
+                    </span>
+                </div>
+                <div class="currentWeather-card">
+                    <h2 id="date4">na</p>
+                    <h1 id="currentTemp4">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog4">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind4">Na</span>
+                    </span>
+                </div>
+                <div class="currentWeather-card">
+                    <h2 id="date5">na</p>
+                    <h1 id="currentTemp5">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog5">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind5">Na</span>
+                    </span>
+                </div>
+                <div class="currentWeather-card">
+                    <h2 id="date6">na</p>
+                    <h1 id="currentTemp6">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog6">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind6">Na</span>
+                    </span>
+                </div>
+                <div class="currentWeather-card">
+                    <h2 id="date7">na</p>
+                    <h1 id="currentTemp7">na</h1>
+                    <span class="infoTemp">
+                        Fog:
+                        <span id="fog7">Na</span>
+                        <br>
+                        Wind:
+                        <span id="wind7">Na</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height: 100%;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+  background-image: url("./img/back.jpg");
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+}
+
+.col-lg {
+  height: 50vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.col-lg-12 {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.6;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar input {
+  border-radius: 20px;
+  border-color: #a9a9b0;
+  border-style: solid;
+  border-width: 0.1px;
+  min-width: 200px;
+  outline: none;
+  margin: 8px;
+  line-height: 2rem;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#submit {
+  background-color: #2b50ed;
+  border-radius: 20px;
+  color: white;
+  width: 80px;
+  height: 35px;
+  cursor: pointer;
+  border: 2px solid #2b50ed;
+  margin: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.currentWeather-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.currentWeather-card {
+  margin: 79px 20px;
+  position: relative;
+  width: 270px;
+  height: 270px;
+}
+
+.currentWeather-card h2 {
+  text-align: center;
+  color: white;
+}
+
+.currentWeather-card h1 {
+  position: absolute;
+  font-weight: 300;
+  font-size: 80px;
+  color: white;
+  left: 60px;
+  bottom: 30px;
+}
+
+.infoTemp {
+  position: absolute;
+  font-weight: 300;
+  font-size: 14px;
+  bottom: 0;
+  left: 20px;
+  line-height: 20px;
+  color: white
+}
+
+.symbolCode {
+  position: absolute;
+  font-weight: 300;
+  font-size: 14px;
+  bottom: 0;
+  left: 180px;
+  color: white
+}
+
+@media only screen and (max-width: 1870px) {
+  .col-lg-12 {
+    background-color: black;
+    opacity: 1;
+    height: auto;
+  }
+}
